@@ -30,3 +30,28 @@ function spirit_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'spirit_pingback_header' );
+
+
+/**
+ * Require styles
+ */
+if (is_file( get_template_directory() . '/inc/spirit-styles.php') ) 
+	require get_template_directory() . '/inc/spirit-styles.php';
+
+/**
+ * Require scripts
+ */
+if (is_file( get_template_directory() . '/inc/spirit-scripts.php') ) 
+	require get_template_directory() . '/inc/spirit-scripts.php';
+
+/**
+ * Function Spirit Routing
+ */
+if (is_file( get_template_directory() . '/inc/spirit-route.php') ) 
+	require get_template_directory() . '/inc/spirit-route.php';
+
+/**
+ * Function Spirit Routing
+ */
+if (is_file( get_template_directory() . '/inc/spirit-menus.php') ) 
+	require get_template_directory() . '/inc/spirit-menus.php';
