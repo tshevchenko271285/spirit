@@ -23,11 +23,7 @@ if( $data['coder'] ) {
 	$data['coder_url'] = get_field('coder_url', 'option') ? get_field('coder_url', 'option') : '';
 }
 
-
 ?>
-
-<pre><?php var_dump($data); ?></pre>
-
 <nav id="footer">
     <div class="container">
         <div class="pull-left fnav">

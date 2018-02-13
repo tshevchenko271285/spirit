@@ -15,8 +15,6 @@ get_header(); ?>
 
 <!--Content-->
 
-
-
 <?php 
 while ( have_posts() ) : the_post();
         // check if the flexible content field has rows of data

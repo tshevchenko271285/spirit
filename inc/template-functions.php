@@ -51,7 +51,25 @@ if (is_file( get_template_directory() . '/inc/spirit-route.php') )
 	require get_template_directory() . '/inc/spirit-route.php';
 
 /**
- * Function Spirit Routing
+ * Function Custom Menus
  */
 if (is_file( get_template_directory() . '/inc/spirit-menus.php') ) 
 	require get_template_directory() . '/inc/spirit-menus.php';
+
+/**
+ * Custom Fields
+ */
+if (is_file( get_template_directory() . '/inc/spirit-fields.php') ) 
+	require get_template_directory() . '/inc/spirit-fields.php';
+
+/**
+ * Custom Post Types
+ */
+if (is_file( get_template_directory() . '/inc/spirit-post-types.php') ) 
+	require get_template_directory() . '/inc/spirit-post-types.php';
+
+/**
+ * Custom Taxonomies
+ */
+if (is_file( get_template_directory() . '/inc/spirit-taxonomies.php') ) 
+	require get_template_directory() . '/inc/spirit-taxonomies.php';

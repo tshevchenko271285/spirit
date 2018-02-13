@@ -8,7 +8,7 @@ function spirit_require_styles() {
 	wp_enqueue_style( 'spirit-style-bootstrap', get_template_directory_uri() . '/layouts/bootstrap.css' );
 	wp_enqueue_style( 'spirit-style-font-awesome', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css' );
 	wp_enqueue_style( 'spirit-style-carousel', get_template_directory_uri() . '/layouts/owl.carousel.css' );
-	wp_enqueue_style( 'spirit-style-carousel', get_template_directory_uri() . '/layouts/owl.theme.css' );
+	wp_enqueue_style( 'spirit-style-owltheme', get_template_directory_uri() . '/layouts/owl.theme.css' );
 	wp_enqueue_style( 'spirit-style-style', get_template_directory_uri() . '/layouts/style.css' );
 	wp_enqueue_style( 'spirit-style-responsive', get_template_directory_uri() . '/layouts/responsive.css' );
 	wp_enqueue_style( 'spirit-style-google-font-Lato', 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' );
